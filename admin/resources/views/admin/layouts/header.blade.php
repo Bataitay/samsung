@@ -10,14 +10,34 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="{{route('phone')}}">Điện thoại</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{route('tv-av')}}">TV&AV</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{route('fridge')}}">Tủ lạnh</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{route('washing')}}">Máy giặt</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{route('screen')}}">Màn hình</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{route('houseware')}}">Đồ gia dụng</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
+                        Danh mục
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="{{route('fridge')}}">Tủ lạnh</a></li>
+                        <li><a class="dropdown-item" href="{{route('washing')}}">Máy giặt</a></li>
+                        <li><a class="dropdown-item" href="{{route('air-purifier')}}">Máy lọc không khí</a></li>
+                        <li><a class="dropdown-item" href="{{route('air-conditioning')}}">Điều hòa</a></li>
+                        <li><a class="dropdown-item" href="{{route('vacuum-cleaner')}}">Máy hút bụi</a></li>
+                        <li><a class="dropdown-item" href="{{route('screen')}}">Màn hình</a></li>
                         <li><a class="dropdown-item" href="#">Another action</a></li>
                         <li><hr class="dropdown-divider"></li>
                         <li><a class="dropdown-item" href="#">Something else here</a></li>

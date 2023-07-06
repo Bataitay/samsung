@@ -129,6 +129,12 @@
       <excludeFolder url="file://$MODULE_DIR$/admin/vendor/vlucas/phpdotenv" />
       <excludeFolder url="file://$MODULE_DIR$/admin/vendor/voku/portable-ascii" />
       <excludeFolder url="file://$MODULE_DIR$/admin/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/admin/vendor/ezyang/htmlpurifier" />
+      <excludeFolder url="file://$MODULE_DIR$/admin/vendor/maatwebsite/excel" />
+      <excludeFolder url="file://$MODULE_DIR$/admin/vendor/maennchen/zipstream-php" />
+      <excludeFolder url="file://$MODULE_DIR$/admin/vendor/markbaker/complex" />
+      <excludeFolder url="file://$MODULE_DIR$/admin/vendor/markbaker/matrix" />
+      <excludeFolder url="file://$MODULE_DIR$/admin/vendor/phpoffice/phpspreadsheet" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -1,8 +1,8 @@
 @extends('admin.main')
 @section('content')
 <div class="d-flex justify-content-between">
-    <h3 class="mb-0">Tủ lạnh</h3>
-    <a class="btn btn-primary" href="{{route('export-fridge')}}">Xuất excel</a>
+    <h3 class="mb-0">Máy lọc không khí</h3>
+    <button class="btn btn-primary" type="submit">Xuất excel</button>
 </div>
 <table class="table table-bordered border-primary mt-5">
     <thead>

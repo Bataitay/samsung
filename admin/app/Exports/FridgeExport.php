@@ -6,8 +6,14 @@ use Maatwebsite\Excel\Concerns\FromCollection;
 
 class FridgeExport implements FromCollection
 {
+    private $data;
+
+    public function __construct($data)
+    {
+        $this->data = $data;
+    }
     public function collection()
     {
-        return User::all();
+        return collect($this->data);
     }
 }

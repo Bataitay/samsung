@@ -33,7 +33,18 @@ Route::middleware([
         return Inertia::render('Dashboard');
     })->name('dashboard');
 });
-Route::get('fridge', [\App\Http\Controllers\ProductController::class, 'index']);
+Route::controller(\App\Http\Controllers\ProductController::class)->group(function () {
+    Route::get('fridge', 'fridge')->name('fridge');
+    Route::get('washing', 'washing')->name('washing');
+    Route::get('air-purifier', 'airPurifier')->name('air-purifier');
+    Route::get('air-conditioning', 'airConditioning')->name('air-conditioning');
+    Route::get('vacuum-cleaner', 'vacuumCleaner')->name('vacuum-cleaner');
+    Route::get('houseware', 'houseware')->name('houseware');
+    Route::get('screen', 'screen')->name('screen');
+    Route::get('phone', 'phone')->name('phone');
+    Route::get('tv_av', 'tvAv')->name('tv-av');
+    Route::get('export-fridge', 'exportFridge')->name('export-fridge');
+});
 Route::get('/home', function () {
     return view('Fe.home');
 });
