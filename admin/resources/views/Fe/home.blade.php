@@ -192,168 +192,550 @@
     <div class="EPP-HD01_HKV-3 ho-g-home-kv-carousel">
 
 
-        <section class="home-kv-carousel  home-kv-carousel--height-medium">
-            <div class="home-kv-carousel__container">
+
+
+
+
+
+
+
+
+
+
+
+        <section class="home-kv-carousel home-kv-carousel--height-medium indicator-container text-color--black">
+            <div class="home-kv-carousel__no-swiping-area--left" style="width: 231.5px;"></div><div class="home-kv-carousel__container swiper-container swiper-container-fade swiper-container-initialized swiper-container-horizontal">
 
                 <button tabindex="-1" type="button" class="swiper-autoplay-stop-btn">
                     <span class="hidden">Dừng trình chiếu tự động</span>
                 </button>
-                <div class="home-kv-carousel__wrapper">
+                <div class="home-kv-carousel__wrapper swiper-wrapper" style="transition-duration: 0ms;"><div class="home-kv-carousel__slide bg-white swiper-slide indicator-page swiper-slide-duplicate swiper-slide-prev" aria-controls="home-kv-carousel-slide-5" an-tr="hd01_home kv carousel-epp home-image-swipe" an-ca="indication" an-ac="carousel" an-la="carousel:swipe:kv5" data-swiper-slide-index="4" aria-hidden="true" style="width: 1903px; opacity: 0; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">
+
+                        <div class="home-kv-carousel__slide-inner">
+                            <div class="home-kv-carousel__text-wrap text-color--black home-kv-carousel__text-wrap--desktop-bottom-center home-kv-carousel__text-wrap--mobile-bottom-center  ">
 
 
-                    <div class="home-kv-carousel__slide bg-white" id="DinamondBanner" aria-controls="home-kv-carousel-slide-1" an-tr="hd01_home kv carousel-epp home-image-swipe" an-ca="indication" an-ac="carousel" an-la="carousel:swipe:kv1">
 
 
+
+
+
+
+
+
+                                <h5 class="home-kv-carousel__headline" data-desktop-headline-text="." data-mobile-headline-text=".">.</h5>
+
+
+
+                                <div class="home-kv-carousel__cta-wrap">
+
+
+
+
+
+                                    <a class="cta cta--contained cta--white" href="https://sshop.vn/trade-in/" an-tr="hd01_home kv carousel-epp home-cta-kv" an-ca="content click" an-ac="feature" an-la="trade-in homepage4:mua ngay" tabindex="-1" aria-hidden="true">
+                                        Tham Gia Ngay
+                                    </a>
+
+
+
+
+
+
+                                </div>
+
+                            </div>
+                            <div class="home-kv-carousel__background-media-wrap indicator-background">
+
+
+
+                                <div class="image-v2 lazy-load-man">
+
+                                    <img class="image-v2__preview" data-mobile-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-536923532?$LazyLoad_Home_PNG$" data-desktop-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-536923531?$LazyLoad_Home_PNG$" data-desktop-alt="" data-mobile-alt="" role="img" data-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-536923531?$LazyLoad_Home_PNG$" alt="">
+                                    <img class="image-v2__main" data-desktop-alt="" data-mobile-alt="" data-360w1x-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-536923532?imwidth=360" data-360w2x-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-536923532?imwidth=720" data-768w1x-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-536923531?imwidth=768" data-768w2x-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-536923531?imwidth=1536" data-1366w1x-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-536923531?imwidth=1366" data-1366w2x-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-536923531?imwidth=2560" role="img" data-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-536923531?imwidth=1366" alt="">
+
+
+                                </div>
+
+
+
+
+                            </div>
+
+                        </div>
                     </div>
 
 
-                    <div class="home-kv-carousel__slide bg-white" aria-controls="home-kv-carousel-slide-2" an-tr="hd01_home kv carousel-epp home-image-swipe" an-ca="indication" an-ac="carousel" an-la="carousel:swipe:kv2">
+                    <div class="home-kv-carousel__slide bg-white swiper-slide indicator-page swiper-slide-active" aria-controls="home-kv-carousel-slide-1" an-tr="hd01_home kv carousel-epp home-image-swipe" an-ca="indication" an-ac="carousel" an-la="carousel:swipe:kv1" data-swiper-slide-index="0" style="width: 1903px; opacity: 1; transform: translate3d(-1903px, 0px, 0px); transition-duration: 0ms;">
+
+                        <div class="home-kv-carousel__slide-inner">
+                            <div class="home-kv-carousel__text-wrap text-color--black home-kv-carousel__text-wrap--desktop-bottom-center home-kv-carousel__text-wrap--mobile-bottom-center  ">
 
 
+
+
+
+
+
+
+
+
+                                <h2 class="home-kv-carousel__headline" data-desktop-headline-text="." data-mobile-headline-text=".">.</h2>
+
+
+
+                                <div class="home-kv-carousel__cta-wrap">
+
+
+
+
+
+                                    <a class="cta cta--contained cta--white" href="https://sshop.vn/unpack-galaxy-gap/" an-tr="hd01_home kv carousel-epp home-cta-kv" an-ca="content click" an-ac="feature" an-la="galaxy s23 series homepage2:.">
+                                        Đăng ký ngay
+                                    </a>
+
+
+
+
+
+
+                                </div>
+
+                            </div>
+                            <div class="home-kv-carousel__background-media-wrap indicator-background">
+
+
+                                <figure class="first-image">
+                                    <picture>
+                                        <source media="(max-width:767px)" srcset="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537486123?imwidth=360, //images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537486123?imwidth=720 1.5x">
+
+
+                                        <source media="(min-width:768px) and (max-width:1365px)" srcset="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537486122?imwidth=768, //images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537486122?imwidth=1536 1.5x">
+                                        <source media="(min-width:1366px)" srcset="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537486122?imwidth=1366, //images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537486122?imwidth=2560 1.5x">
+
+                                        <img src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537486122?imwidth=1366" data-desktop-alt="" data-mobile-alt="" data-target-width="" alt="">
+
+
+                                    </picture>
+                                </figure>
+
+
+
+
+
+                            </div>
+
+                        </div>
                     </div>
 
 
-                    <div class="home-kv-carousel__slide bg-white" aria-controls="home-kv-carousel-slide-3" an-tr="hd01_home kv carousel-epp home-image-swipe" an-ca="indication" an-ac="carousel" an-la="carousel:swipe:kv3">
+                    <div class="home-kv-carousel__slide bg-white swiper-slide indicator-page swiper-slide-next" id="DinamondBanner" aria-controls="home-kv-carousel-slide-2" an-tr="hd01_home kv carousel-epp home-image-swipe" an-ca="indication" an-ac="carousel" an-la="carousel:swipe:kv2" data-swiper-slide-index="1" style="width: 1903px; opacity: 0; transform: translate3d(-3806px, 0px, 0px); transition-duration: 0ms;" aria-hidden="true">
+
+                        <div class="home-kv-carousel__slide-inner">
+                            <div class="home-kv-carousel__text-wrap text-color--white home-kv-carousel__text-wrap--desktop-bottom-center home-kv-carousel__text-wrap--mobile-bottom-center  ">
 
 
+
+
+
+
+
+
+
+
+                                <h2 class="home-kv-carousel__headline" data-desktop-headline-text="." data-mobile-headline-text=".">.</h2>
+
+
+
+                                <div class="home-kv-carousel__cta-wrap">
+
+
+
+
+
+                                    <a class="cta cta--contained cta--white" href="/vn/multistore/vn_doanhnghiepd/offers_epp/uu-dai-dac-biet/" an-tr="hd01_home kv carousel-epp home-cta-kv" an-ca="content click" an-ac="feature" an-la="uu-dai-dac-biet homepage1:mua ngay" tabindex="-1" aria-hidden="true">
+                                        Mua Ngay
+                                    </a>
+
+
+
+
+
+
+                                </div>
+
+                            </div>
+                            <div class="home-kv-carousel__background-media-wrap indicator-background">
+
+
+
+                                <div class="image-v2 image-v2--main-loaded">
+
+                                    <img class="image-v2__preview" data-mobile-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537451944?$LazyLoad_Home_PNG$" data-desktop-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537451943?$LazyLoad_Home_PNG$" data-desktop-alt="" data-mobile-alt="" role="img" alt="" src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537451943?$LazyLoad_Home_PNG$">
+                                    <img class="image-v2__main" data-desktop-alt="" data-mobile-alt="" data-360w1x-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537451944?imwidth=360" data-360w2x-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537451944?imwidth=720" data-768w1x-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537451943?imwidth=768" data-768w2x-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537451943?imwidth=1536" data-1366w1x-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537451943?imwidth=1366" data-1366w2x-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537451943?imwidth=2560" role="img" alt="" src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537451943?imwidth=1366">
+
+
+                                </div>
+
+
+
+
+                            </div>
+
+                        </div>
                     </div>
 
 
-                    <div class="home-kv-carousel__slide bg-white" aria-controls="home-kv-carousel-slide-4" an-tr="hd01_home kv carousel-epp home-image-swipe" an-ca="indication" an-ac="carousel" an-la="carousel:swipe:kv4">
+                    <div class="home-kv-carousel__slide bg-white swiper-slide indicator-page" aria-controls="home-kv-carousel-slide-3" an-tr="hd01_home kv carousel-epp home-image-swipe" an-ca="indication" an-ac="carousel" an-la="carousel:swipe:kv3" data-swiper-slide-index="2" style="width: 1903px; opacity: 0; transform: translate3d(-5709px, 0px, 0px); transition-duration: 0ms;" aria-hidden="true">
+
+                        <div class="home-kv-carousel__slide-inner">
+                            <div class="home-kv-carousel__text-wrap text-color--white home-kv-carousel__text-wrap--desktop-bottom-center home-kv-carousel__text-wrap--mobile-bottom-center  ">
 
 
+
+
+
+
+
+
+
+
+                                <h2 class="home-kv-carousel__headline" data-desktop-headline-text="." data-mobile-headline-text=".">.</h2>
+
+
+
+                                <div class="home-kv-carousel__cta-wrap">
+
+
+
+
+
+                                    <a class="cta cta--contained cta--white" href="/vn/multistore/vn_doanhnghiepd/offers_epp/hotsale/" an-tr="hd01_home kv carousel-epp home-cta-kv" an-ca="content click" an-ac="feature" an-la="bespoke homepage3:buy now" tabindex="-1" aria-hidden="true">
+                                        Mua Ngay
+                                    </a>
+
+
+
+
+
+
+                                </div>
+
+                            </div>
+                            <div class="home-kv-carousel__background-media-wrap indicator-background">
+
+
+
+                                <div class="image-v2 image-v2--main-loaded">
+
+                                    <img class="image-v2__preview" data-mobile-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537469542?$LazyLoad_Home_PNG$" data-desktop-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537469541?$LazyLoad_Home_PNG$" data-desktop-alt="" data-mobile-alt="" role="img" alt="" src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537469541?$LazyLoad_Home_PNG$">
+                                    <img class="image-v2__main" data-desktop-alt="" data-mobile-alt="" data-360w1x-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537469542?imwidth=360" data-360w2x-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537469542?imwidth=720" data-768w1x-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537469541?imwidth=768" data-768w2x-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537469541?imwidth=1536" data-1366w1x-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537469541?imwidth=1366" data-1366w2x-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537469541?imwidth=2560" role="img" alt="" src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537469541?imwidth=1366">
+
+
+                                </div>
+
+
+
+
+                            </div>
+
+                        </div>
                     </div>
 
 
-                    <div class="home-kv-carousel__slide bg-white" aria-controls="home-kv-carousel-slide-5" an-tr="hd01_home kv carousel-epp home-image-swipe" an-ca="indication" an-ac="carousel" an-la="carousel:swipe:kv5">
+                    <div class="home-kv-carousel__slide bg-white swiper-slide indicator-page" aria-controls="home-kv-carousel-slide-4" an-tr="hd01_home kv carousel-epp home-image-swipe" an-ca="indication" an-ac="carousel" an-la="carousel:swipe:kv4" data-swiper-slide-index="3" style="width: 1903px; opacity: 0; transform: translate3d(-7612px, 0px, 0px); transition-duration: 0ms;" aria-hidden="true">
+
+                        <div class="home-kv-carousel__slide-inner">
+                            <div class="home-kv-carousel__text-wrap text-color--black home-kv-carousel__text-wrap--desktop-bottom-center home-kv-carousel__text-wrap--mobile-bottom-center  ">
 
 
+
+
+
+
+
+
+
+
+                                <h2 class="home-kv-carousel__headline" data-desktop-headline-text="." data-mobile-headline-text=".">.</h2>
+
+
+
+                                <div class="home-kv-carousel__cta-wrap">
+
+
+
+
+
+                                    <a class="cta cta--contained cta--white" href="/vn/multistore/vn_doanhnghiepd/offers_epp/secret_sale/" an-tr="hd01_home kv carousel-epp home-cta-kv" an-ca="content click" an-ac="feature" an-la="secret sale homepage:order now" tabindex="-1" aria-hidden="true">
+                                        MUA NGAY
+                                    </a>
+
+
+
+
+
+
+                                </div>
+
+                            </div>
+                            <div class="home-kv-carousel__background-media-wrap indicator-background">
+
+
+
+                                <div class="image-v2 image-v2--main-loaded">
+
+                                    <img class="image-v2__preview" data-mobile-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537082468?$LazyLoad_Home_PNG$" data-desktop-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537082466?$LazyLoad_Home_PNG$" data-desktop-alt="" data-mobile-alt="" role="img" alt="" src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537082466?$LazyLoad_Home_PNG$">
+                                    <img class="image-v2__main" data-desktop-alt="" data-mobile-alt="" data-360w1x-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537082468?imwidth=360" data-360w2x-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537082468?imwidth=720" data-768w1x-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537082466?imwidth=768" data-768w2x-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537082466?imwidth=1536" data-1366w1x-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537082466?imwidth=1366" data-1366w2x-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537082466?imwidth=2560" role="img" alt="" src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537082466?imwidth=1366">
+
+
+                                </div>
+
+
+
+
+                            </div>
+
+                        </div>
                     </div>
 
-                </div>
+
+                    <div class="home-kv-carousel__slide bg-white swiper-slide indicator-page swiper-slide-duplicate-prev" aria-controls="home-kv-carousel-slide-5" an-tr="hd01_home kv carousel-epp home-image-swipe" an-ca="indication" an-ac="carousel" an-la="carousel:swipe:kv5" data-swiper-slide-index="4" style="width: 1903px; opacity: 0; transform: translate3d(-9515px, 0px, 0px); transition-duration: 0ms;" aria-hidden="true">
+
+                        <div class="home-kv-carousel__slide-inner">
+                            <div class="home-kv-carousel__text-wrap text-color--black home-kv-carousel__text-wrap--desktop-bottom-center home-kv-carousel__text-wrap--mobile-bottom-center  ">
+
+
+
+
+
+
+
+
+
+
+                                <h5 class="home-kv-carousel__headline" data-desktop-headline-text="." data-mobile-headline-text=".">.</h5>
+
+
+
+                                <div class="home-kv-carousel__cta-wrap">
+
+
+
+
+
+                                    <a class="cta cta--contained cta--white" href="https://sshop.vn/trade-in/" an-tr="hd01_home kv carousel-epp home-cta-kv" an-ca="content click" an-ac="feature" an-la="trade-in homepage4:mua ngay" tabindex="-1" aria-hidden="true">
+                                        Tham Gia Ngay
+                                    </a>
+
+
+
+
+
+
+                                </div>
+
+                            </div>
+                            <div class="home-kv-carousel__background-media-wrap indicator-background">
+
+
+
+                                <div class="image-v2 image-v2--main-loaded">
+
+                                    <img class="image-v2__preview" data-mobile-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-536923532?$LazyLoad_Home_PNG$" data-desktop-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-536923531?$LazyLoad_Home_PNG$" data-desktop-alt="" data-mobile-alt="" role="img" alt="" src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-536923531?$LazyLoad_Home_PNG$">
+                                    <img class="image-v2__main" data-desktop-alt="" data-mobile-alt="" data-360w1x-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-536923532?imwidth=360" data-360w2x-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-536923532?imwidth=720" data-768w1x-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-536923531?imwidth=768" data-768w2x-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-536923531?imwidth=1536" data-1366w1x-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-536923531?imwidth=1366" data-1366w2x-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-536923531?imwidth=2560" role="img" alt="" src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-536923531?imwidth=1366">
+
+
+                                </div>
+
+
+
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="home-kv-carousel__slide bg-white swiper-slide indicator-page swiper-slide-duplicate swiper-slide-duplicate-active" aria-controls="home-kv-carousel-slide-1" an-tr="hd01_home kv carousel-epp home-image-swipe" an-ca="indication" an-ac="carousel" an-la="carousel:swipe:kv1" data-swiper-slide-index="0" aria-hidden="true" style="width: 1903px; opacity: 0; transform: translate3d(-11418px, 0px, 0px); transition-duration: 0ms;">
+
+                        <div class="home-kv-carousel__slide-inner">
+                            <div class="home-kv-carousel__text-wrap text-color--black home-kv-carousel__text-wrap--desktop-bottom-center home-kv-carousel__text-wrap--mobile-bottom-center  ">
+
+
+
+
+
+
+
+
+
+
+                                <h2 class="home-kv-carousel__headline" data-desktop-headline-text="." data-mobile-headline-text=".">.</h2>
+
+
+
+                                <div class="home-kv-carousel__cta-wrap">
+
+
+
+
+
+                                    <a class="cta cta--contained cta--white" href="https://sshop.vn/unpack-galaxy-gap/" an-tr="hd01_home kv carousel-epp home-cta-kv" an-ca="content click" an-ac="feature" an-la="galaxy s23 series homepage2:." tabindex="-1" aria-hidden="true">
+                                        Đăng ký ngay
+                                    </a>
+
+
+
+
+
+
+                                </div>
+
+                            </div>
+                            <div class="home-kv-carousel__background-media-wrap indicator-background">
+
+
+                                <figure class="first-image">
+                                    <picture>
+                                        <source media="(max-width:767px)" srcset="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537486123?imwidth=360, //images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537486123?imwidth=720 1.5x">
+
+
+                                        <source media="(min-width:768px) and (max-width:1365px)" srcset="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537486122?imwidth=768, //images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537486122?imwidth=1536 1.5x">
+                                        <source media="(min-width:1366px)" srcset="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537486122?imwidth=1366, //images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537486122?imwidth=2560 1.5x">
+
+                                        <img src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-hd01image-537486122?imwidth=1366" data-desktop-alt="" data-mobile-alt="" data-target-width="" alt="">
+
+
+                                    </picture>
+                                </figure>
+
+
+
+
+
+                            </div>
+
+                        </div>
+                    </div></div>
 
                 <div class="arrow-indicator-wrap">
-                    <button class="arrow-indicator arrow-indicator--contained arrow-indicator--prev" an-tr="hd01_home kv carousel-epp home-image-arrow" an-ca="indication" an-ac="carousel" an-la="carousel:arrow:left">
+                    <button class="arrow-indicator arrow-indicator--contained arrow-indicator--prev" an-tr="hd01_home kv carousel-epp home-image-arrow" an-ca="indication" an-ac="carousel" an-la="carousel:arrow:left" tabindex="0" role="button" aria-label="Previous slide" style="display: block;">
                         <span class="hidden">Trước</span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" focusable="false" aria-hidden="true">
                             <g fill="none" fill-rule="evenodd">
                                 <g>
-                                    <circle cx="20" cy="20" r="20" />
+                                    <circle cx="20" cy="20" r="20"></circle>
                                     <g fill-rule="nonzero">
-                                        <path d="M15.179 3.173L16.043 4.077 7.765 12 16.043 19.923 15.179 20.827 5.957 12z" transform="translate(8 8)" />
+                                        <path d="M15.179 3.173L16.043 4.077 7.765 12 16.043 19.923 15.179 20.827 5.957 12z" transform="translate(8 8)"></path>
                                     </g>
                                 </g>
                             </g>
                         </svg>
                     </button>
-                    <button class="arrow-indicator arrow-indicator--contained arrow-indicator--next" an-tr="hd01_home kv carousel-epp home-image-arrow" an-ca="indication" an-ac="carousel" an-la="carousel:arrow:right">
+                    <button class="arrow-indicator arrow-indicator--contained arrow-indicator--next" an-tr="hd01_home kv carousel-epp home-image-arrow" an-ca="indication" an-ac="carousel" an-la="carousel:arrow:right" tabindex="0" role="button" aria-label="Next slide" style="display: block;">
                         <span class="hidden">Tiếp theo</span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" focusable="false" aria-hidden="true">
                             <g fill="none" fill-rule="evenodd">
                                 <g>
-                                    <circle cx="20" cy="20" r="20" />
+                                    <circle cx="20" cy="20" r="20"></circle>
                                     <g fill-rule="nonzero">
-                                        <path d="M7.957 4.077L8.821 3.173 18.043 12 8.821 20.827 7.957 19.923 16.235 12z" transform="translate(8 8)" />
+                                        <path d="M7.957 4.077L8.821 3.173 18.043 12 8.821 20.827 7.957 19.923 16.235 12z" transform="translate(8 8)"></path>
                                     </g>
                                 </g>
                             </g>
                         </svg>
                     </button>
                 </div>
-            </div>
+                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div><div class="home-kv-carousel__no-swiping-area--right" style="width: 231.5px;"></div>
             <div class="home-kv-carousel__indicator-wrap">
-                <div class="indicator label-indicator" data-indicator-data='{
-			"type": "label-indicator",
-			"play": true,
-			"autoRolling": true,
-			"infiniteRolling": true
-			}'>
+                <div class="indicator label-indicator" data-indicator-data="{
+			&quot;type&quot;: &quot;label-indicator&quot;,
+			&quot;play&quot;: true,
+			&quot;autoRolling&quot;: true,
+			&quot;infiniteRolling&quot;: true
+			}">
                     <div class="indicator-wrap">
                         <button class="indicator__controls indicator__controls--play" an-tr="hd01_home kv carousel-epp home-image-action" an-ca="indication" an-ac="carousel" an-la="carousel:index:play">
-                            <svg class="play" focusable="false" aria-hidden="true">
-                                <use xlink:href="#play-bold" href="#play-bold"></use>
-                            </svg>
-                            <svg class="pause" focusable="false" aria-hidden="true">
-                                <use xlink:href="#pause-bold" href="#pause-bold"></use>
-                            </svg>
-                            <span class="hidden">phát</span>
+                            <svg class="play" focusable="false" aria-hidden="true"><use xlink:href="#play-bold" href="#play-bold"></use></svg>
+                            <svg class="pause" focusable="false" aria-hidden="true"><use xlink:href="#pause-bold" href="#pause-bold"></use></svg>
+                            <span class="hidden">play</span>
                         </button>
                         <div class="indicator__list-wrap">
                             <div class="indicator__list" role="tablist">
 
-                                <button class="indicator__item" role="tab" data-indicator-delay="5000" id="home-kv-carousel-slide-1" an-tr="hd01_home kv carousel-epp home-text-carousel" an-ca="indication" an-ac="carousel" an-la="carousel:index:1">
-                                    <span class="indicator__dot-wrap">
-                                        <span class="indicator__dot">
-                                            <span class="indicator__dot-inner"></span>
-                                        </span>
-                                        <span class="hidden"></span>
-                                    </span>
+                                <button class="indicator__item indicator__item--active" role="tab" data-indicator-delay="5000" id="home-kv-carousel-slide-1" an-tr="hd01_home kv carousel-epp home-text-carousel" an-ca="indication" an-ac="carousel" an-la="carousel:index:1" aria-selected="true">
+							<span class="indicator__dot-wrap">
+								<span class="indicator__dot">
+									<span class="indicator__dot-inner"></span>
+								</span>
+								<span class="hidden"></span>
+							</span>
                                     <span class="indicator__label-wrap">
-                                        <span class="indicator__label-line">
-                                            <span class="indicator__label-line-filled"></span>
-                                        </span>
-                                        <span class="indicator__label"></span>
-                                    </span>
+								<span class="indicator__label-line">
+									<span class="indicator__label-line-filled" style="transform: scaleX(0.5156);"></span>
+								</span>
+								<span class="indicator__label"></span>
+							</span>
                                 </button>
 
-                                <button class="indicator__item" role="tab" data-indicator-delay="5000" id="home-kv-carousel-slide-2" an-tr="hd01_home kv carousel-epp home-text-carousel" an-ca="indication" an-ac="carousel" an-la="carousel:index:2">
-                                    <span class="indicator__dot-wrap">
-                                        <span class="indicator__dot">
-                                            <span class="indicator__dot-inner"></span>
-                                        </span>
-                                        <span class="hidden"></span>
-                                    </span>
+                                <button class="indicator__item indicator__item--not-hover" role="tab" data-indicator-delay="5000" id="home-kv-carousel-slide-2" an-tr="hd01_home kv carousel-epp home-text-carousel" an-ca="indication" an-ac="carousel" an-la="carousel:index:2" aria-selected="false">
+							<span class="indicator__dot-wrap">
+								<span class="indicator__dot">
+									<span class="indicator__dot-inner"></span>
+								</span>
+								<span class="hidden"></span>
+							</span>
                                     <span class="indicator__label-wrap">
-                                        <span class="indicator__label-line">
-                                            <span class="indicator__label-line-filled"></span>
-                                        </span>
-                                        <span class="indicator__label"></span>
-                                    </span>
+								<span class="indicator__label-line">
+									<span class="indicator__label-line-filled" style=""></span>
+								</span>
+								<span class="indicator__label"></span>
+							</span>
                                 </button>
 
-                                <button class="indicator__item" role="tab" data-indicator-delay="5000" id="home-kv-carousel-slide-3" an-tr="hd01_home kv carousel-epp home-text-carousel" an-ca="indication" an-ac="carousel" an-la="carousel:index:3">
-                                    <span class="indicator__dot-wrap">
-                                        <span class="indicator__dot">
-                                            <span class="indicator__dot-inner"></span>
-                                        </span>
-                                        <span class="hidden"></span>
-                                    </span>
+                                <button class="indicator__item" role="tab" data-indicator-delay="5000" id="home-kv-carousel-slide-3" an-tr="hd01_home kv carousel-epp home-text-carousel" an-ca="indication" an-ac="carousel" an-la="carousel:index:3" aria-selected="false">
+							<span class="indicator__dot-wrap">
+								<span class="indicator__dot">
+									<span class="indicator__dot-inner"></span>
+								</span>
+								<span class="hidden"></span>
+							</span>
                                     <span class="indicator__label-wrap">
-                                        <span class="indicator__label-line">
-                                            <span class="indicator__label-line-filled"></span>
-                                        </span>
-                                        <span class="indicator__label"></span>
-                                    </span>
+								<span class="indicator__label-line">
+									<span class="indicator__label-line-filled" style=""></span>
+								</span>
+								<span class="indicator__label"></span>
+							</span>
                                 </button>
 
-                                <button class="indicator__item" role="tab" data-indicator-delay="5000" id="home-kv-carousel-slide-4" an-tr="hd01_home kv carousel-epp home-text-carousel" an-ca="indication" an-ac="carousel" an-la="carousel:index:4">
-                                    <span class="indicator__dot-wrap">
-                                        <span class="indicator__dot">
-                                            <span class="indicator__dot-inner"></span>
-                                        </span>
-                                        <span class="hidden"></span>
-                                    </span>
+                                <button class="indicator__item" role="tab" data-indicator-delay="5000" id="home-kv-carousel-slide-4" an-tr="hd01_home kv carousel-epp home-text-carousel" an-ca="indication" an-ac="carousel" an-la="carousel:index:4" aria-selected="false">
+							<span class="indicator__dot-wrap">
+								<span class="indicator__dot">
+									<span class="indicator__dot-inner"></span>
+								</span>
+								<span class="hidden"></span>
+							</span>
                                     <span class="indicator__label-wrap">
-                                        <span class="indicator__label-line">
-                                            <span class="indicator__label-line-filled"></span>
-                                        </span>
-                                        <span class="indicator__label"></span>
-                                    </span>
+								<span class="indicator__label-line">
+									<span class="indicator__label-line-filled" style=""></span>
+								</span>
+								<span class="indicator__label"></span>
+							</span>
                                 </button>
 
-                                <button class="indicator__item" role="tab" data-indicator-delay="5000" id="home-kv-carousel-slide-5" an-tr="hd01_home kv carousel-epp home-text-carousel" an-ca="indication" an-ac="carousel" an-la="carousel:index:5">
-                                    <span class="indicator__dot-wrap">
-                                        <span class="indicator__dot">
-                                            <span class="indicator__dot-inner"></span>
-                                        </span>
-                                        <span class="hidden"></span>
-                                    </span>
+                                <button class="indicator__item" role="tab" data-indicator-delay="5000" id="home-kv-carousel-slide-5" an-tr="hd01_home kv carousel-epp home-text-carousel" an-ca="indication" an-ac="carousel" an-la="carousel:index:5" aria-selected="false">
+							<span class="indicator__dot-wrap">
+								<span class="indicator__dot">
+									<span class="indicator__dot-inner"></span>
+								</span>
+								<span class="hidden"></span>
+							</span>
                                     <span class="indicator__label-wrap">
-                                        <span class="indicator__label-line">
-                                            <span class="indicator__label-line-filled"></span>
-                                        </span>
-                                        <span class="indicator__label"></span>
-                                    </span>
+								<span class="indicator__label-line">
+									<span class="indicator__label-line-filled" style=""></span>
+								</span>
+								<span class="indicator__label"></span>
+							</span>
                                 </button>
 
                             </div>
@@ -364,32 +746,66 @@
             <div class="popup-video popup-video--1" role="dialog" data-comp-name="popupVideo" aria-modal="true">
                 <div class="popup-video__dimmed popup-video--1__dimmed"></div>
                 <div class="popup-video__looping--start popup-video--1__looping--start" tabindex="0"></div>
-                <div class="popup-video__video-wrap popup-video--1__video-wrap">
+                <div class="popup-video__video-wrap popup-video--1__video-wrap" style="width: 780.8px; height: 439.2px;">
                     <p class="popup-video__current-video-title popup-video--1__current-video-title hidden" tabindex="0"></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
                 </div>
                 <button class="popup-video__btn-video-close popup-video--1__btn-video-close">
                     <span class="hidden">Đóng</span>
-                    <svg class="icon" focusable="false" aria-hidden="true">
-                        <use xlink:href="#cancel-close-regular" href="#cancel-close-regular"></use>
-                    </svg>
+                    <svg class="icon" focusable="false" aria-hidden="true"><use xlink:href="#cancel-close-regular" href="#cancel-close-regular"></use></svg>
                 </button>
                 <div class="popup-video__looping--end popup-video--1__looping--end" tabindex="0"></div>
             </div>
             <div class="popup-video popup-video--2" role="dialog" data-comp-name="popupVideo" aria-modal="true">
                 <div class="popup-video__dimmed popup-video--2__dimmed"></div>
                 <div class="popup-video__looping--start popup-video--2__looping--start" tabindex="0"></div>
-                <div class="popup-video__video-wrap popup-video--2__video-wrap">
+                <div class="popup-video__video-wrap popup-video--2__video-wrap" style="width: 780.8px; height: 439.2px;">
                     <p class="popup-video__current-video-title popup-video--2__current-video-title hidden" tabindex="0"></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
                 </div>
                 <button class="popup-video__btn-video-close popup-video--2__btn-video-close">
                     <span class="hidden">Đóng</span>
-                    <svg class="icon" focusable="false" aria-hidden="true">
-                        <use xlink:href="#cancel-close-regular" href="#cancel-close-regular"></use>
-                    </svg>
+                    <svg class="icon" focusable="false" aria-hidden="true"><use xlink:href="#cancel-close-regular" href="#cancel-close-regular"></use></svg>
                 </button>
                 <div class="popup-video__looping--end popup-video--2__looping--end" tabindex="0"></div>
             </div>
@@ -398,22 +814,92 @@
             <div class="popup-video popup-video--3" role="dialog" data-comp-name="popupVideo" aria-modal="true">
                 <div class="popup-video__dimmed popup-video--3__dimmed"></div>
                 <div class="popup-video__looping--start popup-video--3__looping--start" tabindex="0"></div>
-                <div class="popup-video__video-wrap popup-video--3__video-wrap">
+                <div class="popup-video__video-wrap popup-video--3__video-wrap" style="width: 780.8px; height: 439.2px;">
                     <p class="popup-video__current-video-title popup-video--3__current-video-title hidden" tabindex="0"></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
                 </div>
                 <button class="popup-video__btn-video-close popup-video--3__btn-video-close">
                     <span class="hidden">Đóng</span>
-                    <svg class="icon" focusable="false" aria-hidden="true">
-                        <use xlink:href="#cancel-close-regular" href="#cancel-close-regular"></use>
-                    </svg>
+                    <svg class="icon" focusable="false" aria-hidden="true"><use xlink:href="#cancel-close-regular" href="#cancel-close-regular"></use></svg>
                 </button>
                 <div class="popup-video__looping--end popup-video--3__looping--end" tabindex="0"></div>
             </div>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     </div>
@@ -1631,43 +2117,58 @@
     <div class="EPP-FT12_FCC-8 pd-g-feature-benefit-column-carousel">
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
         <div class="feature-column-carousel   bg-white feature-column-carousel--width-1440   feature-column-carousel--divide">
             <div class="feature-column-carousel__column   feature-column-carousel__column--desktop-columns-4 feature-column-carousel__column--mobile-columns-2 feature-column-carousel__column--align-center  use-mobile-carousel swiper-container basic-swiper   " data-desktop-per-page="9" data-mobile-per-page="9" data-swiper-option="{
-        &#34;slidesPerView&#34;:2,
-        &#34;keepWrapper&#34;:true,
-        &#34;slidesPerGroup&#34;:2,
-        &#34;viewMode&#34;:&#34;mobile&#34;,
-        &#34;loop&#34;: false ,
-        &#34;pagination&#34;:false,
-        &#34;componentEl&#34;:&#34;.feature-column-carousel&#34;,
-        &#34;autoplay&#34;:{
-        &#34;start&#34;:true,
-        &#34;delay&#34;: 4000,
-        &#34;an-tr&#34;:&#34;ft12_feature column carousel_home specific|playStop&#34;,
-        &#34;an-ca&#34;:&#34;indication&#34;,
-        &#34;an-ac&#34;:&#34;carousel&#34;,
-        &#34;an-la&#34;:&#34;carousel:index:feature column stop&#34;
+        &quot;slidesPerView&quot;:2,
+        &quot;keepWrapper&quot;:true,
+        &quot;slidesPerGroup&quot;:2,
+        &quot;viewMode&quot;:&quot;mobile&quot;,
+        &quot;loop&quot;: false ,
+        &quot;pagination&quot;:false,
+        &quot;componentEl&quot;:&quot;.feature-column-carousel&quot;,
+        &quot;autoplay&quot;:{
+        &quot;start&quot;:true,
+        &quot;delay&quot;: 4000,
+        &quot;an-tr&quot;:&quot;ft12_feature column carousel_home specific|playStop&quot;,
+        &quot;an-ca&quot;:&quot;indication&quot;,
+        &quot;an-ac&quot;:&quot;carousel&quot;,
+        &quot;an-la&quot;:&quot;carousel:index:feature column stop&quot;
         },
-		 &#34;offTxtAccesibility&#34;:true
-    }">
+		 &quot;offTxtAccesibility&quot;:true
+    }" style="">
 
                 <div class="feature-column-carousel__inner swiper-wrapper" id="EPP_FT12_FCC_8-columns">
 
-                    <div class="feature-column-carousel__item feature-column-carousel__item--align-center swiper-slide" an-tr="ft12_feature column carousel_home specific|index" an-ca="indication" an-ac="carousel" an-la="carousel:index:feature column 1">
+                    <div class="feature-column-carousel__item feature-column-carousel__item--align-center swiper-slide is-item-active is-item-visible" an-tr="ft12_feature column carousel_home specific|index" an-ca="indication" an-ac="carousel" an-la="carousel:index:feature column 1">
                         <div class="feature-column-carousel__feature bg-white">
                             <div class="feature-column-carousel__content">
-                                <div class="feature-column-carousel__text-wrap">
+                                <div class="feature-column-carousel__text-wrap" style="height: 135px;">
 
                                     <div class="feature-column-carousel__title">
                                         <h2>Mời Bạn Cùng Mua</h2>
                                     </div>
 
                                     <div class="feature-column-carousel__text">
-                                        <p>Giới thiệu người thân và bạn bè của bạn cùng trải nghiệm sản phẩm
-                                            Samsung với chương trình Samsungfamily</p>
+                                        <p>Giới thiệu người thân và bạn bè của bạn cùng trải nghiệm sản phẩm Samsung với chương trình Samsungfamily</p>
                                     </div>
                                 </div>
-                                <div class="feature-column-carousel__button">
+                                <div class="feature-column-carousel__button" style="height: 40px;">
+
+
+
 
 
                                     <a class="cta cta--outlined cta--black" href="https://www.sshop.vn/promotion-ext/" an-tr="ft12_feature column carousel_home specific|cta" an-ca="home content click" an-ac="feature column" an-la="feature column:feature column::more">
@@ -1676,40 +2177,48 @@
                                     </a>
 
 
+
+
+
+
+
                                 </div>
                                 <div class="feature-column-carousel__disclaimer">
 
                                 </div>
                             </div>
 
-                            <div class="feature-column-carousel__figure">
+                            <div class="feature-column-carousel__figure" style="height: 205px;">
 
 
-                                <div class="image">
-                                    <img class="image__preview lazy-load responsive-img" data-desktop-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-ft12image-536800100?$LazyLoad_Home_PNG$" data-mobile-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-ft12image-536800101?$LazyLoad_Home_PNG$" alt role="img" />
-                                    <img class="image__main lazy-load responsive-img" data-desktop-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-ft12image-536800100?$FB_TYPE_J_S_IMG$" data-mobile-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-ft12image-536800101?$FB_TYPE_J_F_MO_IMG$" alt role="img" />
+                                <div class="image image--main-loaded">
+                                    <img class="image__preview responsive-img image--loaded image--hide" data-desktop-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-ft12image-536800100?$LazyLoad_Home_PNG$" data-mobile-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-ft12image-536800101?$LazyLoad_Home_PNG$" alt="" src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-ft12image-536800100?$LazyLoad_Home_PNG$" aria-hidden="true">
+                                    <img class="image__main responsive-img image--loaded" data-desktop-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-ft12image-536800100?$FB_TYPE_J_S_IMG$" data-mobile-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-ft12image-536800101?$FB_TYPE_J_F_MO_IMG$" alt="" src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-ft12image-536800100?$FB_TYPE_J_S_IMG$" style="">
                                 </div>
+
 
 
                             </div>
                         </div>
                     </div>
 
-                    <div class="feature-column-carousel__item feature-column-carousel__item--align-center swiper-slide" an-tr="ft12_feature column carousel_home specific|index" an-ca="indication" an-ac="carousel" an-la="carousel:index:feature column 2">
+                    <div class="feature-column-carousel__item feature-column-carousel__item--align-center swiper-slide is-item-active is-item-visible" an-tr="ft12_feature column carousel_home specific|index" an-ca="indication" an-ac="carousel" an-la="carousel:index:feature column 2">
                         <div class="feature-column-carousel__feature bg-white">
                             <div class="feature-column-carousel__content">
-                                <div class="feature-column-carousel__text-wrap">
+                                <div class="feature-column-carousel__text-wrap" style="height: 135px;">
 
                                     <div class="feature-column-carousel__title">
                                         <h2>Thu Cũ Đổi Mới</h2>
                                     </div>
 
                                     <div class="feature-column-carousel__text">
-                                        <p>Nay đã có thu cũ đổi mới dành riêng cho TV. Lên đời TV ngay hôm nay.
-                                        </p>
+                                        <p>Nay đã có thu cũ đổi mới dành riêng cho TV. Lên đời TV ngay hôm nay.</p>
                                     </div>
                                 </div>
-                                <div class="feature-column-carousel__button">
+                                <div class="feature-column-carousel__button" style="height: 40px;">
+
+
+
 
 
                                     <a class="cta cta--outlined cta--black" href="https://sshop.vn/trade-in" an-tr="ft12_feature column carousel_home specific|cta" an-ca="home content click" an-ac="feature column" an-la="feature column:feature column::samsung family">
@@ -1718,40 +2227,48 @@
                                     </a>
 
 
+
+
+
+
+
                                 </div>
                                 <div class="feature-column-carousel__disclaimer">
 
                                 </div>
                             </div>
 
-                            <div class="feature-column-carousel__figure">
+                            <div class="feature-column-carousel__figure" style="height: 205px;">
 
 
-                                <div class="image">
-                                    <img class="image__preview lazy-load responsive-img" data-desktop-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-ft12image-536924670?$LazyLoad_Home_PNG$" data-mobile-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-ft12image-536924671?$LazyLoad_Home_PNG$" alt role="img" />
-                                    <img class="image__main lazy-load responsive-img" data-desktop-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-ft12image-536924670?$FB_TYPE_J_S_IMG$" data-mobile-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-ft12image-536924671?$FB_TYPE_J_F_MO_IMG$" alt role="img" />
+                                <div class="image image--main-loaded">
+                                    <img class="image__preview responsive-img image--loaded image--hide" data-desktop-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-ft12image-536924670?$LazyLoad_Home_PNG$" data-mobile-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-ft12image-536924671?$LazyLoad_Home_PNG$" alt="" src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-ft12image-536924670?$LazyLoad_Home_PNG$" aria-hidden="true">
+                                    <img class="image__main responsive-img image--loaded" data-desktop-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-ft12image-536924670?$FB_TYPE_J_S_IMG$" data-mobile-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-ft12image-536924671?$FB_TYPE_J_F_MO_IMG$" alt="" src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-ft12image-536924670?$FB_TYPE_J_S_IMG$" style="">
                                 </div>
+
 
 
                             </div>
                         </div>
                     </div>
 
-                    <div class="feature-column-carousel__item feature-column-carousel__item--align-center swiper-slide" an-tr="ft12_feature column carousel_home specific|index" an-ca="indication" an-ac="carousel" an-la="carousel:index:feature column 3">
+                    <div class="feature-column-carousel__item feature-column-carousel__item--align-center swiper-slide is-item-active is-item-visible" an-tr="ft12_feature column carousel_home specific|index" an-ca="indication" an-ac="carousel" an-la="carousel:index:feature column 3">
                         <div class="feature-column-carousel__feature bg-white">
                             <div class="feature-column-carousel__content">
-                                <div class="feature-column-carousel__text-wrap">
+                                <div class="feature-column-carousel__text-wrap" style="height: 135px;">
 
                                     <div class="feature-column-carousel__title">
                                         <h2>Trả góp 0% lãi suất</h2>
                                     </div>
 
                                     <div class="feature-column-carousel__text">
-                                        <p>Thêm ưu đãi thêm lựa chọn. Chốt đơn ngay với thanh toán trả góp 0%
-                                            lãi suất</p>
+                                        <p>Thêm ưu đãi thêm lựa chọn. Chốt đơn ngay với thanh toán trả góp 0% lãi suất</p>
                                     </div>
                                 </div>
-                                <div class="feature-column-carousel__button">
+                                <div class="feature-column-carousel__button" style="height: 40px;">
+
+
+
 
 
                                     <a class="cta cta--outlined cta--black" href="//www.samsung.com/vn/galaxy/tan-huong-tra-gop/" an-tr="ft12_feature column carousel_home specific|cta" an-ca="home content click" an-ac="feature column" an-la="feature column:feature column:zero  interest:zero  interest">
@@ -1760,19 +2277,25 @@
                                     </a>
 
 
+
+
+
+
+
                                 </div>
                                 <div class="feature-column-carousel__disclaimer">
 
                                 </div>
                             </div>
 
-                            <div class="feature-column-carousel__figure">
+                            <div class="feature-column-carousel__figure" style="height: 205px;">
 
 
-                                <div class="image">
-                                    <img class="image__preview lazy-load responsive-img" data-desktop-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-ft12image-535962953?$LazyLoad_Home_PNG$" data-mobile-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-ft12image-535962954?$LazyLoad_Home_PNG$" alt role="img" />
-                                    <img class="image__main lazy-load responsive-img" data-desktop-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-ft12image-535962953?$FB_TYPE_J_S_IMG$" data-mobile-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-ft12image-535962954?$FB_TYPE_J_F_MO_IMG$" alt role="img" />
+                                <div class="image image--main-loaded">
+                                    <img class="image__preview responsive-img image--loaded image--hide" data-desktop-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-ft12image-535962953?$LazyLoad_Home_PNG$" data-mobile-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-ft12image-535962954?$LazyLoad_Home_PNG$" alt="" src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-ft12image-535962953?$LazyLoad_Home_PNG$" aria-hidden="true">
+                                    <img class="image__main responsive-img image--loaded" data-desktop-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-ft12image-535962953?$FB_TYPE_J_S_IMG$" data-mobile-src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-ft12image-535962954?$FB_TYPE_J_F_MO_IMG$" alt="" src="//images.samsung.com/is/image/samsung/p6pim/vn/epp/vn-eppcms-ft12image-535962953?$FB_TYPE_J_S_IMG$" style="">
                                 </div>
+
 
 
                             </div>
@@ -1781,10 +2304,10 @@
 
                 </div>
 
-                <div class="indicator" data-indicator-data='{
-				"type": "dot-indicator",
-				"autoRolling": true,
-				"infiniteRolling": true}'>
+                <div class="indicator dot-indicator" data-indicator-data="{
+				&quot;type&quot;: &quot;dot-indicator&quot;,
+				&quot;autoRolling&quot;: true,
+				&quot;infiniteRolling&quot;: true}">
                     <div class="indicator-wrap">
 
                         <button class="indicator__controls indicator__controls--play">
@@ -1798,13 +2321,13 @@
                         </button>
                         <div class="indicator__list-wrap">
                             <div class="indicator__list" role="tablist">
-                                <button class="indicator__item" role="tab" data-indicator-delay="">
-                                    <span class="indicator__dot-wrap">
-                                        <span class="indicator__dot">
-                                            <span class="indicator__dot-inner"></span>
-                                        </span>
-                                        <span class="hidden">Indicator 1</span>
-                                    </span>
+                                <button class="indicator__item" role="tab" data-indicator-delay="" aria-selected="false">
+								<span class="indicator__dot-wrap">
+								<span class="indicator__dot">
+									<span class="indicator__dot-inner"></span>
+								</span>
+								<span class="hidden">Indicator 1</span>
+								</span>
                                 </button>
                             </div>
                         </div>
@@ -1815,70 +2338,69 @@
 
             <div class="feature-column-carousel__video-wrap" id="video-id-itemEPP_FT12_FCC_8_0-0">
                 <div class="feature-column-carousel__video feature-column-carousel__video--youtube">
-                    <div class="video" data-image-default="false" data-video-embed="false" data-video-type="youtube" data-video-data='{
-						"title": "",
-						"id": "",
-						"muted": false,
-						"caption": "",
-						"autoplay": true}'>
+                    <div class="video" data-image-default="false" data-video-embed="false" data-video-type="youtube" data-video-data="{
+						&quot;title&quot;: &quot;&quot;,
+						&quot;id&quot;: &quot;&quot;,
+						&quot;muted&quot;: false,
+						&quot;caption&quot;: &quot;&quot;,
+						&quot;autoplay&quot;: true}">
                     </div>
 
 
+
                     <button type="button" class="feature-column-carousel__close"><span class="hidden">Đóng</span>
-                        <svg class="icon" focusable="false">
-                            <use xlink:href="#close-btn" href="#close-btn"></use>
-                        </svg>
+                        <svg class="icon" focusable="false"><use xlink:href="#close-btn" href="#close-btn"></use></svg>
                     </button>
                 </div>
+
 
 
             </div>
 
             <div class="feature-column-carousel__video-wrap" id="video-id-itemEPP_FT12_FCC_8_1-1">
                 <div class="feature-column-carousel__video feature-column-carousel__video--youtube">
-                    <div class="video" data-image-default="false" data-video-embed="false" data-video-type="youtube" data-video-data='{
-						"title": "",
-						"id": "",
-						"muted": false,
-						"caption": "",
-						"autoplay": true}'>
+                    <div class="video" data-image-default="false" data-video-embed="false" data-video-type="youtube" data-video-data="{
+						&quot;title&quot;: &quot;&quot;,
+						&quot;id&quot;: &quot;&quot;,
+						&quot;muted&quot;: false,
+						&quot;caption&quot;: &quot;&quot;,
+						&quot;autoplay&quot;: true}">
                     </div>
 
 
+
                     <button type="button" class="feature-column-carousel__close"><span class="hidden">Đóng</span>
-                        <svg class="icon" focusable="false">
-                            <use xlink:href="#close-btn" href="#close-btn"></use>
-                        </svg>
+                        <svg class="icon" focusable="false"><use xlink:href="#close-btn" href="#close-btn"></use></svg>
                     </button>
                 </div>
+
 
 
             </div>
 
             <div class="feature-column-carousel__video-wrap" id="video-id-itemEPP_FT12_FCC_8_2-2">
                 <div class="feature-column-carousel__video feature-column-carousel__video--youtube">
-                    <div class="video" data-image-default="false" data-video-embed="false" data-video-type="youtube" data-video-data='{
-						"title": "",
-						"id": "",
-						"muted": false,
-						"caption": "",
-						"autoplay": true}'>
+                    <div class="video" data-image-default="false" data-video-embed="false" data-video-type="youtube" data-video-data="{
+						&quot;title&quot;: &quot;&quot;,
+						&quot;id&quot;: &quot;&quot;,
+						&quot;muted&quot;: false,
+						&quot;caption&quot;: &quot;&quot;,
+						&quot;autoplay&quot;: true}">
                     </div>
 
 
+
                     <button type="button" class="feature-column-carousel__close"><span class="hidden">Đóng</span>
-                        <svg class="icon" focusable="false">
-                            <use xlink:href="#close-btn" href="#close-btn"></use>
-                        </svg>
+                        <svg class="icon" focusable="false"><use xlink:href="#close-btn" href="#close-btn"></use></svg>
                     </button>
                 </div>
+
 
 
             </div>
 
         </div>
-    </div>
-    <div class="EPP-CO02_TBC-9 cm-g-text-block-container">
+    </div>    <div class="EPP-CO02_TBC-9 cm-g-text-block-container">
 
         <section class="text-block-container text-color--black " style="background: #FFFFFF">
             <div class="text-block-container__title-wrap">

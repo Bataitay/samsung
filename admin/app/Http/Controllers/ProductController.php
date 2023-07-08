@@ -142,4 +142,10 @@ class ProductController extends Controller
         $data = $this->listData($type);
         return Excel::download(new FridgeExport($data), 'phone-smartwatch.xlsx');
     }
+    public function exportScreen()
+    {
+        $type = '07000000';
+        $data = $this->listData($type);
+        return Excel::download(new FridgeExport($data), 'man-hinh.xlsx');
+    }
 }

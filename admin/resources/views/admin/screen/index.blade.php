@@ -2,7 +2,7 @@
 @section('content')
 <div class="d-flex justify-content-between">
     <h3 class="mb-0">Màn hình</h3>
-    <button class="btn btn-primary" type="submit">Xuất excel</button>
+    <a class="btn btn-primary" href="{{route('export-screen')}}">Xuất excel</a>
 </div>
 <table class="table table-bordered border-primary mt-5">
     <thead>

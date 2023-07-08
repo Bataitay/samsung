@@ -48,8 +48,9 @@ Route::controller(\App\Http\Controllers\ProductController::class)->group(functio
     Route::get('export-washing', 'exportWashing')->name('export-washing');
     Route::get('export-tv-av', 'exportTvAv')->name('export-tv-av');
     Route::get('export-phone', 'exportPhone')->name('export-phone');
+    Route::get('export-screen', 'exportScreen')->name('export-screen');
 });
-Route::get('/home', function () {
+Route::get('/', function () {
     return view('Fe.home');
 });
 //Route::get('/fridge', function () {
