@@ -118,4 +118,28 @@ class ProductController extends Controller
         $data = $this->listData($type);
         return Excel::download(new FridgeExport($data), 'Tu-lanh.xlsx');
     }
+    public function exportHouseware()
+    {
+        $type = '08000000';
+        $data = $this->listData($type);
+        return Excel::download(new FridgeExport($data), 'gia-dung.xlsx');
+    }
+    public function exportWashing()
+    {
+        $type = '08010000';
+        $data = $this->listData($type);
+        return Excel::download(new FridgeExport($data), 'may-giat.xlsx');
+    }
+    public function exportTvAv()
+    {
+        $type = '04000000';
+        $data = $this->listData($type);
+        return Excel::download(new FridgeExport($data), 'Tv&av.xlsx');
+    }
+    public function exportPhone()
+    {
+        $type = '01000000';
+        $data = $this->listData($type);
+        return Excel::download(new FridgeExport($data), 'phone-smartwatch.xlsx');
+    }
 }

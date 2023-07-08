@@ -44,6 +44,10 @@ Route::controller(\App\Http\Controllers\ProductController::class)->group(functio
     Route::get('phone', 'phone')->name('phone');
     Route::get('tv_av', 'tvAv')->name('tv-av');
     Route::get('export-fridge', 'exportFridge')->name('export-fridge');
+    Route::get('export-houseware', 'exportHouseware')->name('export-houseware');
+    Route::get('export-washing', 'exportWashing')->name('export-washing');
+    Route::get('export-tv-av', 'exportTvAv')->name('export-tv-av');
+    Route::get('export-phone', 'exportPhone')->name('export-phone');
 });
 Route::get('/home', function () {
     return view('Fe.home');
