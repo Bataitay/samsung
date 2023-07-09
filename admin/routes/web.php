@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Fe\FridgeController;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
@@ -32,7 +33,7 @@ Route::middleware([
     Route::get('/dashboard', function () {
         return Inertia::render('Dashboard');
     })->name('dashboard');
-});
+
 Route::controller(\App\Http\Controllers\ProductController::class)->group(function () {
     Route::get('fridge', 'fridge')->name('fridge');
     Route::get('washing', 'washing')->name('washing');
@@ -53,6 +54,8 @@ Route::controller(\App\Http\Controllers\ProductController::class)->group(functio
 Route::get('/', function () {
     return view('Fe.home');
 });
-//Route::get('/fridge', function () {
-//    return view('Fe.products.fridge');
-//});
+
+Route::controller(FridgeController::class)->group(function () {
+    Route::get('tu-lanh', 'index')->name('fridge.index');
+});
+});

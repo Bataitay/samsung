@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
 use Maatwebsite\Excel\Facades\Excel;
 
-class ProductController extends Controller
+class ProductController extends Controller 
 {
     public function fridge(Request $request)
     {
