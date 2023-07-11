@@ -9,7 +9,7 @@
                 <form action="" class="row">
                     <div class="input-group input-group-merge col-md-4 search-loan">
                         <span class="input-group-text" id="basic-addon-search31"><i class="bx bx-search"></i></span>
-                        <input type="text" class="form-control" value="{{request()->key_word}}" name="key_word" placeholder="Tìm kiếm theo tên số điện thoại" aria-label="Search..."
+                        <input type="text" class="form-control" value="{{request()->key_word}}" name="key_word" placeholder="Tìm kiếm theo tên hoặc email" aria-label="Search..."
                             aria-describedby="basic-addon-search31">
                     </div>
                     <div class="btn-search col-md-2">
@@ -24,9 +24,8 @@
           <tr>
             <th>STT</th>
             <th>Tên</th>
-            <th>Số điện thoại</th>
-            <th>CMND/CCCD</th>
             <th>Email</th>
+            <th>Loại khách</th>
             <th>Hành động</th>
           </tr>
         </thead>
@@ -37,13 +36,10 @@
           <tr class="item-{{$user->id}}">
             <td>{{$loop->iteration}}</td>
             <td>{{$user->name}}</td>
-            <td>{{$user->phone}}</td>
-            <td>{{$user->cccd_cmnd}}</td>
             <td>{{$user->email}}</td>
+            <td>{{$user->type == 0 ? 'khách lẽ' : 'Khách buôn'}}</td>
             @if ($user->role_id != 1)
             <td class="d-flex">
-                <a class="" href="{{route('user.edit', $user->id)}}"><i class="bx bx-edit-alt"></i> </a>
-                <a class="" href="{{route('user.show', $user->id)}}"><i class="bi bi-eye"></i> </a>
                 <a data-href="{{ route('user.destroy', $user->id) }}" id="{{ $user->id }}"
                     class="sm deleteIcon"><i class="bx bx-trash"></i>
                 </a>

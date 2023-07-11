@@ -9,7 +9,7 @@
                 <form action="" class="row">
                     <div class="input-group input-group-merge col-md-4 search-loan">
                         <span class="input-group-text" id="basic-addon-search31"><i class="bx bx-search"></i></span>
-                        <input type="text" class="form-control" id="search" name="key_word" aria-label="Search..."
+                        <input type="text" class="form-control" id="search" name="key_word" aria-label="Search..." placeholder="Tìm kiếm"
                             aria-describedby="basic-addon-search31">
                     </div>
                 </form>

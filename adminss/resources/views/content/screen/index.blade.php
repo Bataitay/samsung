@@ -3,7 +3,7 @@
     <div class="card">
         <div class="loan-index d-flex row">
             <div class="title-loan col-md-3">
-                <h5 class="card-header">Tủ lạnh</h5>
+                <h5 class="card-header">Màn hình</h5>
             </div>
             <div class="col-md-7">
                 <form action="" class="row">
@@ -16,7 +16,7 @@
             </div>
             @if (Auth::check() && auth()->user()->role_id == 1)
             <div class="col-md-2" style="margin-top: 15px;">
-                <a class="btn btn-success" href="{{ route('export-fridge') }}">Xuất excel</a>
+                <a class="btn btn-success" href="{{ route('export-screen') }}">Xuất excel</a>
             </div>
             @endif
         </div>

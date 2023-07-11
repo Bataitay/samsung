@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\UserRequest;
 use App\Models\User;
 use App\Traits\UploadFileTrait;
 use Exception;
@@ -41,7 +42,7 @@ class UserController extends Controller
         return view('content.user.add');
     }
 
-    public function store(Request $request)
+    public function store(UserRequest $request)
     {
         $input = $request->all();
         $input['password'] = bcrypt($input['password']);
@@ -50,4 +51,14 @@ class UserController extends Controller
         return back()->with('message', 'Thêm thành công');
     }
 
+    public function destroy($id)
+    {
+        try {
+            $user = $this->model->destroy($id);
+            return response()->json($user);
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
+            return response()->json($user);
+        }
+    }
 }

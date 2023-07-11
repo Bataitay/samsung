@@ -1,7 +1,7 @@
 @extends('main')
 @section('content')
     <div class="card">
-        <div class="loan-index d-flex row">
+        <div class="loan-index d-flex row justify-content-between">
             <div class="title-loan col-md-3">
                 <h5 class="card-header">Tủ lạnh</h5>
             </div>
@@ -9,7 +9,7 @@
                 <form action="" class="row">
                     <div class="input-group input-group-merge col-md-4 search-loan">
                         <span class="input-group-text" id="basic-addon-search31"><i class="bx bx-search"></i></span>
-                        <input type="text" class="form-control" id="search" name="key_word" aria-label="Search..."
+                        <input type="text" class="form-control" id="search" name="key_word" aria-label="Search..." placeholder="Tìm kiếm"
                             aria-describedby="basic-addon-search31">
                     </div>
                 </form>

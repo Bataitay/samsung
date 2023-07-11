@@ -3,11 +3,12 @@
 namespace App\Http\Controllers;
 
 use App\Exports\FridgeExport;
+use App\Http\Controllers\Fe\BaseController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
 use Maatwebsite\Excel\Facades\Excel;
 
-class ProductController extends Controller
+class ProductController extends BaseController
 {
     public function fridge(Request $request)
     {
@@ -73,43 +74,6 @@ class ProductController extends Controller
         $data = $this->listData($type);
         return view('content.tv_av.index', compact('data'));
 
-    }
-
-    public function listData($type)
-    {
-        $listData = $this->handdleData($type);
-        $data = [];
-        foreach ($listData as $value) {
-            $arr = [
-                'Model' => $value['modelCode'],
-                'description' => $value['displayName'],
-                'color' => $value['fmyChipList'][0]['fmyChipLocalName'] ?? '',
-                'afterTaxPriceDisplay' => $value['afterTaxPriceDisplay'],
-                'priceDisplay' => $value['priceDisplay'],
-                'stock' => $value['ctaType'] != 'outOfStock' ? 'Còn hàng' : 'Hết hàng'
-//                'ton_kho' => $this->getDataUrl('https://shop.samsung.com/vn/multistore/vnepp/vn_doanhnghiepd/servicesv2/getSimpleProductsInfo?productCodes=' . $value['modelCode'])
-
-            ];
-//            $arr['ton_kho'] = data_get($arr['ton_kho'], 'productDatas.*.stockLevel');
-            array_push($data, $arr);
-        }
-        return $data;
-    }
-
-    public function handdleData($type)
-    {
-        $url = 'https://searchapi.samsung.com/v6/front/epp/v2/product/finder/global?type='.$type.'&siteCode=vn&start=1&num=12&sort=newest&onlyFilterInfoYN=N&keySummaryYN=Y&specHighlightYN=Y&companyCode=vn_doanhnghiepd&pfType=G&familyId=';
-        $response = $this->getDataUrl($url);
-        $data = $response['response'];
-        $quantity = $data['resultData']['common']['totalRecord'];
-        $urlAll = 'https://searchapi.samsung.com/v6/front/epp/v2/product/finder/global?type='.$type.'&siteCode=vn&start=1&num='.$quantity.'&sort=newest&onlyFilterInfoYN=N&keySummaryYN=Y&specHighlightYN=Y&companyCode=vn_doanhnghiepd&pfType=G&familyId=';
-        $getUrl = $this->getDataUrl($urlAll);
-        return data_get(collect($getUrl), 'response.resultData.productList.*.modelList.*');
-    }
-    public function getDataUrl($url)
-    {
-        $response = Http::get($url);
-        return  $response->json();
     }
 
     public function exportFridge()

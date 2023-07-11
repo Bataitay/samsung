@@ -22,12 +22,8 @@ use Illuminate\Support\Facades\Auth;
 */
 
 Route::middleware(['auth'])->group(function () {
-Route::middleware(['admin'])->group(function () {
-    Route::get('app-index', [SupportAppController::class, 'index'])->name('app.index');
-    Route::get('app-create', [SupportAppController::class, 'create'])->name('app.create');
-    Route::post('app-store', [SupportAppController::class, 'store'])->name('app.store');
-    Route::delete('app/delete/{id}', [SupportAppController::class, 'destroy'])->name('app.destroy');
-    Route::get('app/change-status/{id}', [SupportAppController::class, 'changeStatus'])->name('app.change-status');
+
+    Route::get('/', [HomeController::class, 'index'])->name('dashboard');
 
     Route::controller(\App\Http\Controllers\ProductController::class)->group(function () {
         Route::get('fridge', 'fridge')->name('fridge');
@@ -39,21 +35,30 @@ Route::middleware(['admin'])->group(function () {
         Route::get('screen', 'screen')->name('screen');
         Route::get('phone', 'phone')->name('phone');
         Route::get('tv_av', 'tvAv')->name('tv-av');
-        Route::get('export-fridge', 'exportFridge')->name('export-fridge');
-        Route::get('export-houseware', 'exportHouseware')->name('export-houseware');
-        Route::get('export-washing', 'exportWashing')->name('export-washing');
-        Route::get('export-tv-av', 'exportTvAv')->name('export-tv-av');
-        Route::get('export-phone', 'exportPhone')->name('export-phone');
-        Route::get('export-screen', 'exportScreen')->name('export-screen');
     });
-
-    Route::resource('user', UserController::class);
     Route::get('change-password', [AuthController::class, 'viewChangePassword'])->name('user.view-change-password');
     Route::post('change-password', [AuthController::class, 'changePassword'])->name('user.change-password');
-    Route::get('forget-password/{id}', [AuthController::class, 'forgetPassword'])->name('user.forget-password');
+    Route::middleware(['admin'])->group(function () {
 
-    Route::get('/', [HomeController::class, 'index'])->name('dashboard');
+        Route::resource('user', UserController::class);
+
+        Route::controller(\App\Http\Controllers\ProductController::class)->group(function () {
+            Route::get('export-fridge', 'exportFridge')->name('export-fridge');
+            Route::get('export-houseware', 'exportHouseware')->name('export-houseware');
+            Route::get('export-washing', 'exportWashing')->name('export-washing');
+            Route::get('export-tv-av', 'exportTvAv')->name('export-tv-av');
+            Route::get('export-phone', 'exportPhone')->name('export-phone');
+            Route::get('export-screen', 'exportScreen')->name('export-screen');
+        });
+
+        Route::get('forget-password/{id}', [AuthController::class, 'forgetPassword'])->name('user.forget-password');
+
+
+        Route::get('app-index', [SupportAppController::class, 'index'])->name('app.index');
+        Route::get('app-create', [SupportAppController::class, 'create'])->name('app.create');
+        Route::post('app-store', [SupportAppController::class, 'store'])->name('app.store');
+        Route::delete('app/delete/{id}', [SupportAppController::class, 'destroy'])->name('app.destroy');
+        Route::get('app/change-status/{id}', [SupportAppController::class, 'changeStatus'])->name('app.change-status');
+    });
 });
-});
-Route::get('read-contract/{id}', [LoanPackageController::class, 'readContract'])->name('read-contract');
 Auth::routes();

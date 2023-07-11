@@ -43,7 +43,7 @@
                             <label for="password" class="col-md-4 col-form-label text-md-end">{{ __('Password') }}</label>
 
                             <div class="col-md-6">
-                                <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
+                                <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" value="old('password')" required autocomplete="new-password">
 
                                 @error('password')
                                     <span class="invalid-feedback" role="alert">
@@ -57,7 +57,7 @@
                             <label for="password-confirm" class="col-md-4 col-form-label text-md-end">{{ __('Confirm Password') }}</label>
 
                             <div class="col-md-6">
-                                <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
+                                <input id="password-confirm" type="password" class="form-control" name="password_confirmation" value="old('password_confirmation')" required autocomplete="password_confirmation">
                             </div>
                         </div>
 
@@ -65,8 +65,9 @@
                             <label for="role" class="col-md-4 col-form-label text-md-end">Vai trò</label>
 
                             <div class="col-md-6">
-                                <select name="role_id" class="form-control">
-                                    <option class="form-control" value="1">Admin</option>
+                                <select name="type" class="form-control">
+                                    <option class="form-control" value="0">Khách lẽ</option>
+                                    <option class="form-control" value="1">Khách buôn</option>
                                 </select>
                             </div>
                         </div>
