@@ -1,13 +1,78 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Console\Commands;
 
-use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
+use App\Models\Product;
+use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Http;
 
-class BaseController extends Controller
+class SyncProduct extends Command
 {
+    /**
+     * The name and signature of the console command.
+     *
+     * @var string
+     */
+    protected $signature = 'app:sync-product';
+
+    /**
+     * The console command description.
+     *
+     * @var string
+     */
+    protected $description = 'sync-product';
+
+    /**
+     * Execute the console command.
+     */
+    public function handle()
+    {
+        $products = [];
+
+        //Tủ lạnh
+        $apiFridge = '08030000';
+        $typeFridge = 1;
+        $fridges = $this->listData($typeFridge);
+
+        //Máy giặt
+        $apiWashing = '08010000';
+        $typeWashing = 2;
+        $washings = $this->listData($typeWashing);
+
+        //Điện thoai
+        $apiPhone = '01000000';
+        $typePhone = 3;
+        $phones = $this->listData($typePhone);
+
+        //Đồng hồ
+        $apiWatch = '01030000';
+        $typeWatch = 4;
+        $watches = $this->listData($typeWatch);
+
+        //Loa
+        $apiSoundbar = '05000000';
+        $typeSoundbar = 5;
+        $soundbars = $this->listData($typeSoundbar);
+
+         //Màn hình
+         $apiSoundbar = '05000000';
+         $typeSoundbar = 6;
+         $soundbars = $this->listData($typeSoundbar);
+
+          //đồ gia dụng
+        $apiSoundbar = '05000000';
+        $typeSoundbar = 7;
+        $soundbars = $this->listData($typeSoundbar);
+
+         //TV&AV
+         $apiSoundbar = '05000000';
+         $typeSoundbar = 8;
+         $soundbars = $this->listData($typeSoundbar);
+ 
+        array_merge($products, $fridges, $phones, $washings, $watches, soundbars, );
+        
+    }
+
     public function listData($type)
     {
         $listData = $this->handdleData($type);

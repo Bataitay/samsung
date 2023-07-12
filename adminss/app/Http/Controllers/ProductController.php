@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Exports\FridgeExport;
-use App\Http\Controllers\Fe\BaseController;
+use App\Http\Controllers\BaseController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
 use Maatwebsite\Excel\Facades\Excel;
@@ -26,6 +26,7 @@ class ProductController extends BaseController
         return view('content.washing.index', compact('data'));
 
     }
+
     public function airPurifier(Request $request)
     {
         $type = '08040000';
@@ -33,6 +34,7 @@ class ProductController extends BaseController
         return view('admin.air_purifier', compact('data'));
 
     }
+
     public function airConditioning(Request $request)
     {
         $type = '08050000';
@@ -40,6 +42,7 @@ class ProductController extends BaseController
         return view('admin.air_conditioning', compact('data'));
 
     }
+
     public function vacuumCleaner(Request $request)
     {
         $type = '08070000';
@@ -47,6 +50,7 @@ class ProductController extends BaseController
         return view('admin.vacuum_cleaner', compact('data'));
 
     }
+
     public function houseware(Request $request)
     {
         $type = '08000000';
@@ -54,6 +58,7 @@ class ProductController extends BaseController
         return view('content.houseware.index', compact('data'));
 
     }
+
     public function screen(Request $request)
     {
         $type = '07000000';
@@ -61,6 +66,7 @@ class ProductController extends BaseController
         return view('content.screen.index', compact('data'));
 
     }
+
     public function phone(Request $request)
     {
         $type = '01000000';
@@ -68,6 +74,15 @@ class ProductController extends BaseController
         return view('content.phone.index', compact('data'));
 
     }
+
+    public function watch(Request $request)
+    {
+        $type = '01030000';
+        $data = $this->listData($type);
+        return view('content.watch.index', compact('data'));
+
+    }
+
     public function tvAv(Request $request)
     {
         $type = '04000000';
@@ -75,6 +90,14 @@ class ProductController extends BaseController
         return view('content.tv_av.index', compact('data'));
 
     }
+
+    public function soundbar(Request $request)
+        {
+            $type = '05000000';
+            $data = $this->listData($type);
+            return view('content.soundbar.index', compact('data'));
+
+        }
 
     public function exportFridge()
     {
@@ -106,6 +129,14 @@ class ProductController extends BaseController
         $data = $this->listData($type);
         return Excel::download(new FridgeExport($data), 'phone-smartwatch.xlsx');
     }
+
+    public function exportWatch()
+    {
+        $type = '01030000';
+        $data = $this->listData($type);
+        return Excel::download(new FridgeExport($data), 'smartwatch.xlsx');
+    }
+
     public function exportScreen()
     {
         $type = '07000000';

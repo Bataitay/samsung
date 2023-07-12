@@ -34,13 +34,16 @@ Route::middleware(['auth'])->group(function () {
         Route::get('houseware', 'houseware')->name('houseware');
         Route::get('screen', 'screen')->name('screen');
         Route::get('phone', 'phone')->name('phone');
+        Route::get('watch', 'watch')->name('watch');
         Route::get('tv_av', 'tvAv')->name('tv-av');
+        Route::get('soundbar', 'soundbar')->name('soundbar');
     });
     Route::get('change-password', [AuthController::class, 'viewChangePassword'])->name('user.view-change-password');
     Route::post('change-password', [AuthController::class, 'changePassword'])->name('user.change-password');
     Route::middleware(['admin'])->group(function () {
 
         Route::resource('user', UserController::class);
+        Route::resource('promotion', \App\Http\Controllers\PromotionController::class);
 
         Route::controller(\App\Http\Controllers\ProductController::class)->group(function () {
             Route::get('export-fridge', 'exportFridge')->name('export-fridge');
@@ -49,6 +52,8 @@ Route::middleware(['auth'])->group(function () {
             Route::get('export-tv-av', 'exportTvAv')->name('export-tv-av');
             Route::get('export-phone', 'exportPhone')->name('export-phone');
             Route::get('export-screen', 'exportScreen')->name('export-screen');
+            Route::get('export-watch', 'exportWatch')->name('export-watch');
+            Route::get('export-soundbar', 'exportSoundbar')->name('export-soundbar');
         });
 
         Route::get('forget-password/{id}', [AuthController::class, 'forgetPassword'])->name('user.forget-password');

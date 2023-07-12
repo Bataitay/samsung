@@ -14,8 +14,8 @@ class UserController extends Controller
 {
     use UploadFileTrait;
 
-    private $model;
-    private $listRoute;
+    private User $model;
+    private \Illuminate\Http\RedirectResponse $listRoute;
 
     public function __construct()
     {

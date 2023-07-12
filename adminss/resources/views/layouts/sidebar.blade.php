@@ -85,13 +85,19 @@
                     </a>
                 </li>
                 <li class="menu-item">
+                    <a href="{{ route('watch') }}" class="menu-link">
+                        <div data-i18n="Without menu">{{ __('menu.watch') }}</div>
+                    </a>
+                </li>
+                <li class="menu-item">
                     <a href="{{ route('tv-av') }}" class="menu-link">
                         <div data-i18n="Without menu">{{ __('menu.Tv_av') }}</div>
                     </a>
                 </li>
+
                 <li class="menu-item">
-                    <a href="{{ route('fridge') }}" class="menu-link">
-                        <div data-i18n="Without menu">{{ __('menu.Fridge') }}</div>
+                    <a href="{{ route('soundbar') }}" class="menu-link">
+                        <div data-i18n="Without menu">{{ __('menu.soundbar') }}</div>
                     </a>
                 </li>
                 <li class="menu-item">
@@ -146,6 +152,11 @@
                 <li class="menu-item">
                     <a href="{{ route('user.index') }}" class="menu-link">
                         <div data-i18n="Container">{{ __('menu.User') }}</div>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="{{ route('promotion.index') }}" class="menu-link">
+                        <div data-i18n="Container">{{ __('menu.promotion') }}</div>
                     </a>
                 </li>
             </ul>
