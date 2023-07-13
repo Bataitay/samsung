@@ -64,7 +64,7 @@
 
         <!-- Dashboard -->
         <li class="menu-item active">
-            <a href="index.html" class="menu-link">
+            <a href="" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
                 <div data-i18n="Analytics">{{ __('menu.Home') }}</div>
             </a>
@@ -113,6 +113,11 @@
                 <li class="menu-item">
                     <a href="{{ route('houseware') }}" class="menu-link">
                         <div data-i18n="Without navbar">{{ __('menu.houseware') }}</div>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="{{ route('fridge') }}" class="menu-link">
+                        <div data-i18n="Without navbar">{{ __('menu.Fridge') }}</div>
                     </a>
                 </li>
 

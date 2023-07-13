@@ -32,45 +32,51 @@ class SyncProduct extends Command
         //Tủ lạnh
         $apiFridge = '08030000';
         $typeFridge = 1;
-        $fridges = $this->listData($typeFridge);
+        $fridges = $this->listData($apiFridge);
+        $this->insertMultipleData($fridges, $typeFridge);
 
         //Máy giặt
         $apiWashing = '08010000';
         $typeWashing = 2;
-        $washings = $this->listData($typeWashing);
+        $washings = $this->listData($apiWashing);
+        $this->insertMultipleData($washings, $typeWashing);
 
         //Điện thoai
         $apiPhone = '01000000';
         $typePhone = 3;
-        $phones = $this->listData($typePhone);
+        $phones = $this->listData($apiPhone);
+        $this->insertMultipleData($phones, $typePhone);
 
         //Đồng hồ
         $apiWatch = '01030000';
         $typeWatch = 4;
-        $watches = $this->listData($typeWatch);
+        $watches = $this->listData($apiWatch);
+        $this->insertMultipleData($watches, $typeWatch);
 
         //Loa
         $apiSoundbar = '05000000';
         $typeSoundbar = 5;
-        $soundbars = $this->listData($typeSoundbar);
+        $soundbars = $this->listData($apiSoundbar);
+        $this->insertMultipleData($soundbars, $typeSoundbar);
 
          //Màn hình
-         $apiSoundbar = '05000000';
-         $typeSoundbar = 6;
-         $soundbars = $this->listData($typeSoundbar);
+         $apiScreen = '07000000';
+         $typeScreen = 6;
+         $screens = $this->listData($apiScreen);
+        $this->insertMultipleData($screens, $typeScreen);
 
           //đồ gia dụng
-        $apiSoundbar = '05000000';
-        $typeSoundbar = 7;
-        $soundbars = $this->listData($typeSoundbar);
+        $apiHouseware = '08000000';
+        $typeHouseware = 7;
+        $housewares = $this->listData($apiHouseware);
+        $this->insertMultipleData($housewares, $typeHouseware);
 
          //TV&AV
-         $apiSoundbar = '05000000';
-         $typeSoundbar = 8;
-         $soundbars = $this->listData($typeSoundbar);
- 
-        array_merge($products, $fridges, $phones, $washings, $watches, soundbars, );
-        
+         $apiTvAv = '04000000';
+         $typeTvAv = 8;
+         $tvAvs = $this->listData($apiTvAv);
+        $this->insertMultipleData($tvAvs, $typeTvAv);
+
     }
 
     public function listData($type)
@@ -80,11 +86,14 @@ class SyncProduct extends Command
         foreach ($listData as $value) {
             $arr = [
                 'Model' => $value['modelCode'],
-                'description' => $value['displayName'],
+                'title' => $value['displayName'],
                 'color' => $value['fmyChipList'][0]['fmyChipLocalName'] ?? '',
                 'afterTaxPriceDisplay' => $value['afterTaxPriceDisplay'],
                 'priceDisplay' => $value['priceDisplay'],
-                'stock' => $value['ctaType'] != 'outOfStock' ? 'Còn hàng' : 'Hết hàng'
+                'afterTaxPrice' => $value['afterTaxPrice'],
+                'price' => $value['price'],
+                'promotionPrice' => $value['promotionPrice'],
+                'stock' => $value['ctaType'] != 'outOfStock' ? 1 : 0,
 //                'ton_kho' => $this->getDataUrl('https://shop.samsung.com/vn/multistore/vnepp/vn_doanhnghiepd/servicesv2/getSimpleProductsInfo?productCodes=' . $value['modelCode'])
 
             ];
@@ -108,5 +117,32 @@ class SyncProduct extends Command
     {
         $response = Http::get($url);
         return  $response->json();
+    }
+
+    public function insertMultipleData($dataArray, $type)
+    {
+        foreach ($dataArray as $data) {
+            $this->insertData($data, $type);
+        }
+    }
+    public function insertData($data, $type)
+    {
+        $product = Product::firstOrNew(['code' => $data['Model']]);
+
+        if ($product->exists && $product->stock != $data['stock']) {
+            $product->stock = $data['stock'];
+            $product->save();
+        } elseif (!$product->exists) {
+            $product->type = $type;
+            $product->title = $data['title'];
+            $product->color_or_size = $data['color'];
+            $product->price_display = $data['priceDisplay'];
+            $product->promotion_price = $data['promotionPrice'];
+            $product->price = $data['price'];
+            $product->after_tax_price = $data['afterTaxPrice'];
+            $product->after_tax_price_display = $data['afterTaxPriceDisplay'];
+            $product->stock = $data['stock'];
+            $product->save();
+        }
     }
 }

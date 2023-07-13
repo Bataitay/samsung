@@ -27,7 +27,7 @@
                         <th scope="col">Stt</th>
         <th scope="col">Model</th>
         <th scope="col">Mô tả</th>
-        <th scope="col">Màu sắc</th>
+        <th scope="col">Kích thước(inch)</th>
         <th scope="col">Giá niêm yết</th>
         <th scope="col">Giá ưu đãi hiển<br> thị trên website</th>
         <th scope="col">Tồn kho</th>
@@ -38,13 +38,13 @@
                     @foreach($data as $item)
                     <tr>
                         <td scope="row">{{$loop->iteration}}</td>
-                        <td>{{$item['Model']}}</td>
+                        <td>{{$item['code']}}</td>
                         <td style="white-space: normal;">
-                            {{ $item['description'] }}
+                            {{ $item['title'] }}
                         </td>
-                        <td style="white-space: normal;">{{$item['color']}}</td>
-                        <td>{{$item['afterTaxPriceDisplay']}}</td>
-                        <td>{{$item['priceDisplay']}}</td>
+                        <td style="white-space: normal;">{{$item['color_or_size']}}</td>
+                        <td>{{$item['after_tax_price_display']}}</td>
+                        <td>{{$item['price_display']}}</td>
                         <td>{{$item['stock']}}</td>
                     </tr>
                         @endforeach
