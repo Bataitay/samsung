@@ -3,8 +3,10 @@
 namespace App\Console\Commands;
 
 use App\Models\Product;
+use Carbon\Carbon;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Log;
 
 class SyncProduct extends Command
 {
@@ -144,5 +146,10 @@ class SyncProduct extends Command
             $product->stock = $data['stock'];
             $product->save();
         }
+        // Log the synchronization success message
+        Log::info('Đồng bộ thành công '. Carbon::now());
+        // Store the success message in session
+        session()->flash('success', 'Đồng bộ thành công '. Carbon::now());
     }
+
 }
